@@ -1,0 +1,78 @@
+# --- Секреты и конфигурации ---
+# Самая важная строка: никогда не отправляйте .env файл в Git!
+.env
+config.ini
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# --- Python ---
+# Кэш байт-кода Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Распространенные дистрибутивы
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Инструменты для тестирования
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# --- IDE и редакторы кода ---
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# --- Операционная система ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Логи и базы данных ---
+# Лог-файлы могут быть очень большими
+*.log
+
+# Локальные базы данных (если вы тестируете локально)
+*.db
+*.sqlite3
